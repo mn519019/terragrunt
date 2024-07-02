@@ -2,7 +2,13 @@
 
 ## How do you deploy multi environment terraform infrastructures in AWS 
 ```
-Terraform is an IAC tool that you can manage cloud infrastructures in a consisntent manner. However, when you manage multiple environments, terraform code can be messy and duplicated. Thus, Terragrunt has been intorduced to ensure terraform code can stay as dry as possible. The rational behind of Terragrunt is adopting a module-based terraform code and use it to deploy multiple environments wiht minimal repetition. 
+Terraform is an IAC tool that you can manage cloud infrastructures in a consisntent manner.
+
+However, when you manage multiple environments, terraform code can be messy and duplicated.
+
+Thus, Terragrunt has been intorduced to ensure terraform code can stay as dry as possible.
+
+The rational behind of Terragrunt is adopting a module-based terraform code and use it to deploy multiple environments wiht minimal repetition. 
 ```
 
 ### Pre-requisites
