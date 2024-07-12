@@ -23,3 +23,8 @@ variable "env" {
   type        = string
   description = "Name of the environment"
 }
+
+variable "iam_role" {
+  type        = string
+  description = "Name of the iamrole"
+}

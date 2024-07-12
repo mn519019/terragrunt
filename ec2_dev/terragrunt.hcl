@@ -23,6 +23,7 @@ inputs = {
   ami           = local.common_vars.locals.ami
   instance_type = local.common_vars.locals.instance_type
   key_name      = local.common_vars.locals.key_name
+  iam_role      = local.common_vars.locals.iam_role
   env           = local.common_vars.locals.env
 
 }
